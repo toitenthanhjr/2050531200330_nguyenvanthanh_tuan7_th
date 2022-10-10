@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <TextView
+        android:id="@+id/Lyric"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="30dp"
+        android:text="Dani Alves"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/Lyrc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/Lyric"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginRight="30dp"
+        android:textSize="17sp"
+
+        android:text="Chơi bóng từ khi còn nhỏ, anh bắt đàu sự nghiệp bóng đá chuyên nghiệp
+của mình khi lên 18 tuổi tại câu lạc bộ Esporte Clube Bahia; anh có trận đấu ra mắt với
+Paraná Clube vào năm 2001 và ghi được một bàn thăngs.\n\nTrong mùa giải 2002-2003, anh chuyển
+sang đá cho câu lạc bộ Sevilla từ một hợp đồng cho mượn; trong mùa giải này anh đã được góp
+mặt tham dự vào giải vô địch trẻ thế giới năm 2003 và giúp cho đội tuyển của mình giành chức
+vô địch và trở thành cầu thủ chơi hay thứ ba của giải đấu. Đến tháng 6 năm 2006, anh ký hợp
+đồng mới 6 năm với Sevilla ; trong mùa giải 2006-2007, anh đã ghi được 5 bàn thắng trong tổng
+47 lần ra sân\n\nVào ngày 2 tháng 7 năm 2008, anh gia nhập vào đội tuyển Barcelona trong
+hợp đồng 4 năm với mức giá chuyển nhượng là 23 triệu bảng Anh, khiến anh trở thành một
+trong những hậu vệ đắt giá nhất trong lịch sử và là cầu thủ đắt giá thứ ba của Barcelona
+từng mua.
+" />
+</RelativeLayout>
+
+

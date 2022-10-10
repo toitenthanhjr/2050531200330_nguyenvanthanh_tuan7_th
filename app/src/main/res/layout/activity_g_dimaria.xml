@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <TextView
+        android:id="@+id/Lyric"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="30dp"
+        android:text="Angel Di Maria"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/Lyrc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/Lyric"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginRight="30dp"
+        android:textSize="18sp"
+
+
+        android:text="Angel Di Maria tên đầy đủ là Ángel Fabián di María Hernández anh được biết
+đến là một cầu thủ bóng đá chuyên nghiệp của Argentina. Anh được coi là tiền vệ cánh hoặc tiền vệ
+tấn công có lối đá léo lắt đẹp mắt đậm chất Nam Mỹ, người đã giành huy chương vàng tại mùa giải
+đầu tiên của Olympic vào năm 2008. Anh từng là cầu thủ của đội tuyển Manchester United và
+Real Madrid; hiện nay anh là cầu thủ đang chơi cho đội tuyển quốc gia Argentina và câu lạc bộ
+Paris Saint-Germain.\n\nAngel Di Maria bắt đầu sự nghiệp bóng đá của mình khi tuổi đời còn trẻ,
+năm 2005 ông gia nhập vào đội tuyển trẻ Rosario Central ở tuổi 13. Sau đó, anh chuyển sang chơi
+cho Benfica vào năm 2007 sau khi anh là cầu thủ gây ấn tượng tại giải vô địch U20 thế giới thu
+hút sự chú ý của nhiều đội bóng ở Châu Âu . Tại đây, anh nhanh chóng đưa đội tuyển Benfica
+giành nhiều chiến thắng trong cúp UEFA." />
+
+</RelativeLayout>
+
+

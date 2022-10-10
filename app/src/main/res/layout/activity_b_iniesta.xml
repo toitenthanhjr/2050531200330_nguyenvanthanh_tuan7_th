@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <TextView
+        android:id="@+id/Lyric"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="30dp"
+        android:text="Andres Iniesta"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/Lyrc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/Lyric"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginRight="30dp"
+        android:textSize="20sp"
+
+        android:text="Andres Iniesta tên đầy đủ là Andrés Iniesta Luján,
+anh là một ngôi sao bóng đá của Tây Ban Nha. Là cầu thủ chơi ở vị trí
+tiền vệ đôi khi là tiền đạo cánh; với khả năng cầm bóng cùng với sự
+di chuyển bóng thông minh anh được coi là một trong số những tiền vệ
+hay nhất thế giới giành được 6 giải La Liga.\n\nAnh là người từng nhận
+giải thưởng Cầu thủ xuất sắc nhất tại giải đấu UEFA Euro vào năm 2012
+và là có côn lớn giúp cho đội tuyển quốc gia Tây Ban Nha giành chức vô địch
+tại World Cup năm 2010. Hiện nay, anh là cầu thủ chơi cho đội tuyển Barcelona
+và là trụ cột cho đội tuyển bóng đá quốc gia Tây Ban Nha." />
+
+</RelativeLayout>
+
+

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <TextView
+        android:id="@+id/Lyric"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="30dp"
+        android:text="Sergio Aguero"
+        android:textSize="18sp"
+
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/Lyrc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/Lyric"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginRight="30dp"
+        android:textSize="17sp"
+
+        android:text="Sergio Aguero bắt đầu gia nhập vào đội bóng trẻ Independiente khi
+mới lên 9 tuổi và anh chính thức ra mắt trong đội hình đội bóng vào năm 2003, anh được mệnh
+danh là cầu thủ trẻ nhất thi đấu tại giải vô địch Argentina khi mới 15 tuổi.\n\nVới tài năng
+của mình, anh trở thành ngôi sao trẻ thu hút sự chú ý một số câu lạc bộ hàng đầu Châu Âu.
+Đến cuối tháng 5 năm 2006, anh được chuyển nhượng sang câu lạc bộ Atlético Madrid
+và tiếp tục ký hợp đồng với câu lạc bộ này với hợp đồng 6 năm. Với mức phí chuyển nhượng
+20 triệu euro, anh trở thành một cầu thủ đắt giá nhất tại câu lạc bộ Independiente\n\n
+Vào ngày 13 tháng 12 năm 2006, anh tham gia vào trận đấu với Levante tại giải siêu cúp nhà vua
+Tây Ban Nha. Anh đã giúp đội tuyển Atlético cân bằng tỉ số ở phút cuối của hiệp đấu sau đó anh
+cũng là người giúp đội tuyển giành chiến thắng tại hiệp phụ." />
+
+</RelativeLayout>
+
+

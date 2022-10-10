@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <TextView
+        android:id="@+id/Lyric"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="30dp"
+        android:text="Sergio Ramos"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/Lyrc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/Lyric"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginRight="30dp"
+        android:textSize="20sp"
+
+        android:text="Sergio Ramos García (sinh ngày 30 tháng 3 năm 1986) là một cầu thủ bóng đá
+người Tây Ban Nha. Anh hiện chơi tại vị trí hậu vệ và hiện đang là đội trưởng
+của câu lạc bộ Real Madrid và Đội tuyển bóng đá quốc gia Tây Ban Nha.
+Ramos từng có một thời rèn luyện tại đội trẻ Sevilla.\n\nRamos giữ kỷ lục bị phạt
+thẻ đỏ nhiều nhất cho một cầu thủ Real Madrid (26 tính đến cuối năm 2019);
+Tại La Liga anh đã bị đuổi ra khỏi sân 19 lần, vượt qua kỷ lục được Xavier Aguado
+và Pablo Alfaro giữ chung." />
+
+</RelativeLayout>
+
+

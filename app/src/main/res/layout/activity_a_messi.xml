@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <TextView
+        android:id="@+id/Lyric"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="30dp"
+        android:text="Lionel Messi"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/Lyrc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/Lyric"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginRight="30dp"
+        android:textSize="20sp"
+
+        android:text="Sinh ngày 24 tháng 6 năm 1987), còn được gọi là Leo Messi,
+ là một cầu thủ bóng đá chuyên nghiệp người Argentina hiện đang
+ thi đấu ở vị trí tiền đạo cho câu lạc bộ Ligue 1 Paris Saint-Germai
+  và là đội trưởng của đội tuyển bóng đá quốc gia Argentina.\n\nĐược đánh giá là một trong những cầu thủ xuất sắc nhất mọi thời đại
+ và là cầu thủ hay nhất thế giới trong thời đại của anh, anh cũng là
+ chủ nhân của nhiều danh hiệu cao quý như Quả bóng vàng châu Âu 2009,
+  Cầu thủ xuất sắc nhất năm 2009 của FIFA, Quả bóng vàng FIFA 2010, 2011,
+   2012 và 2015. Lối chơi của anh được so sánh với huyền thoại Diego Maradona,
+   người tự coi Messi là truyền nhân của mình.
+" />
+
+</RelativeLayout>
+
+

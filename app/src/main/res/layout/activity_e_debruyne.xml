@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <TextView
+        android:id="@+id/Lyric"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="30dp"
+        android:text="Kevin De Bruyne"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/Lyrc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/Lyric"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginRight="30dp"
+        android:textSize="18sp"
+
+        android:text="Kevin De Bruyne (sinh ngày 28 tháng 6 năm 1991) là một cầu thủ bóng đá
+người Bỉ hiện đang thi đấu ở vị trí tiền vệ cho câu lạc bộ Manchester City tại Premier League
+và đội tuyển quốc gia Bỉ.\n\nĐược coi là một cầu thủ thông minh và đa năng, De Bruyne chơi chủ
+yếu ở vị trí tiền vệ trung tâm hoặc tiền vệ tấn công lệch phải (tại Manchester City) nhưng cũng
+có thể hoạt động ở một số vị trí khác như tiền vệ cánh hoặc tiền đạo thứ hai; anh ấy thậm chí
+đã được triển khai ở vị trí tiền vệ kiến thiết lùi sâu, hoặc thậm chí đôi khi trong vai trò
+box-to-box.\n\nAnh ấy được các chuyên gia đánh giá là một trong những cầu thủ có phong cách chơi bóng hiện đại
+và hoàn hảo nhất hiện nay, nhờ kỹ thuật, kỹ năng, tốc độ, tầm nhìn, khả năng chuyền bóng và
+tạt bóng cực kì chính xác, phạm vi chuyền rộng, và những cú sút xa uy lực bằng cả hai chân." />
+
+</RelativeLayout>
+
+

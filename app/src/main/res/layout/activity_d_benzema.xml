@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <TextView
+        android:id="@+id/Lyric"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="30dp"
+        android:text="Karim Benzema"
+        android:textSize="18sp"
+
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/Lyrc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/Lyric"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginRight="30dp"
+        android:textSize="19sp"
+
+        android:text="Karim Benzema (sinh 19 tháng 12 năm 1987 tại Lyon, Rhône-Alpes)
+là cầu thủ bóng đá người Pháp đang thi đấu cho Real Madrid thuộc giải La Liga
+và đội tuyển Pháp. Anh đá ở vị trí tiền đạo.\n\nNăm 2004, Benzema cùng đội tuyển U-17 Pháp giành cúp vô địch giải U-17 châu Âu.
+Đến năm 2006, lần đầu tiên Benzema được huấn luyện viên trưởng Raymond Domenech
+triệu tập vào đội tuyển bóng đá quốc gia Pháp, năm anh mới 18 tuổi.\n\nAnh là cầu thủ ghi bàn nhiều thứ hai mọi thời đại của Real Madrid và là cầu thủ
+có nhiều kiến tạo nhất trong lịch sử đội bóng này. Sinh ra tại Lyon với cha mẹ
+đều là người Algérie, Benzema bắt đầu sự nghiệp của mình với câu lạc bộ quê hương
+Olympique Lyonnais vào năm 2005, đóng góp vào ba chức vô địch Ligue 1.
+" />
+
+</RelativeLayout>
+
+

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <TextView
+        android:id="@+id/Lyric"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="30dp"
+        android:text="Neymar Junior"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/Lyrc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/Lyric"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginRight="30dp"
+        android:textSize="17sp"
+
+        android:text="Neymar tên đầy đủ là Neymar da Silva Santos Jr, anh sinh ngày 5 tháng 2
+năm 1992 tại thành phố Mogi das Cruzes của Sao Paulo, Brazil. Cha anh - Neymar Santos Senior là
+một cầu thủ bóng đá chuyên nghiệp và từng là huấn luyện viên của anh. Mẹ anh là Nadine da Silva.\n\nThời
+thơ ấu, Neymar cũng từng là một cầu thủ bóng đá đường phố nổi tiếng như futsal. Cùng với sự
+chỉ dạy của người bố, anh đã cải thiện kỹ năng rất nhanh. Minh chứng là cho đến năm 2003,
+lúc này Neymar chỉ mới 11 tuổi mà anh đã được đại diện Portuguesa Santista và chuyển đến
+thành phố Sao Vicente, sau đó là FC Santos. Cũng chính lúc này, con đường theo đuổi sự nghiệp
+cầu thủ bóng đá chuyên nghiệp của anh bắt đầu.\n\nTrong suốt thời gian thi đấu tại đội bóng
+thanh thiếu niên của Santos, Neymar đã mang về rất nhiều bàn thắng. Có lẽ chính vì như vậy
+mà kỹ năng của anh đã trở thành chủ đề bàn luận nóng hổi trên khắp các mặt báo. Nhờ vậy mà
+nhiều câu lạc bộ lớn trên thế giới biết đến và tranh nhau ký hợp đồng với Neymar." />
+
+</RelativeLayout>
+
+

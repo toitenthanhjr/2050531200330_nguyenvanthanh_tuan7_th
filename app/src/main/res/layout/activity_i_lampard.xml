@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <TextView
+        android:id="@+id/Lyric"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="30dp"
+        android:text="Frank Lampard"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/Lyrc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/Lyric"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginRight="30dp"
+        android:textSize="18sp"
+
+        android:text="Frank Lampard là huyền thoại bất tử của CLB Chelsea. Anh để lại di sản
+lớn tại sân Stamford Bridge, là cầu thủ ghi nhiều bàn nhất trong lịch sử CLB với 211 lần
+lập công. Frank Lampard được mệnh danh là Người không phổi, luôn cống hiến không biết mệt mỏi.
+Chính vì vậy mà Frank Lampard trở thành mẫu cầu thủ bất kỳ HLV nào cũng đều ao ước. HLV
+Jose Mourinho đã khẳng định ông có thể xáo tung đội hình Chelsea nhưng vị trí của Frank Lampard
+thì không thể thay đổi.\n\nFrank Lampard được xem là một trong những tiền vệ xuất sắc nhất
+thế giới. Anh từng đứng thứ 2 sau Ronaldinho trong cả 2 cuộc bầu chọn: Cầu thủ xuất sắc nhất
+năm của FIFA và Quả bóng vàng châu Âu năm 2005.\n\nNăm 2008, Frank Lampard được bầu chọn là
+tiền vệ xuất sắc nhất năm tại Giải vô địch các CLB châu Âu. Frank Lampard bắt đầu sự nghiệp
+thi đấu chuyên nghiệp tại West Ham United năm 1994.Năm 2001, Frank Lampard chuyển đến thi
+đấu cho CLB Chelsea với mức giá chuyển nhượng 11 triệu bảng Anh.
+" />
+
+</RelativeLayout>
+
+
